@@ -9,7 +9,7 @@ I am running this version on an Anycubic Mega-S (for distinction of the differen
 Basically, this works on every Ultrabase version that has two Z-axis endstops. For i3 Mega with single endstop check [davidramiros's Wiki](https://github.com/davidramiro/Marlin-AI3M/wiki/Customization-&-Compiling#single-z-endstop).   
 By default it is designed to work on i3 Mega. New Mega-S works too, but calibrating your extruder is mandatory since it needs to have increased E-steps, see [davidramiros's Wiki](https://github.com/davidramiro/Marlin-AI3M/wiki/Customization-&-Compiling#mega-s).
 
-All about a highly recommended calibration according to the instructions can be found in [davidramiro's Wiki](https://github.com/davidramiro/Marlin-AI3M/wiki/Extruder-Calibration/).  
+All about a highly recommended calibration according to the instructions can be found in [davidramiro's Wiki](https://github.com/davidramiro/Marlin-AI3M/wiki/Calibration/).  
 You can find everything you need to set up and calibrate the BLTouch in my [Wiki](https://github.com/MNieddu91/Marlin-AI3M-BLTouch/wiki).  
 
 Note: This is just a firmware, not magic. A big part of print quality still depends on your slicer settings and mechanical condition of your machine. Since I have reduced the acceleration and jerk settings a bit, depending on your slicer the estimated print time might be around 20% lower. You can compensate that loss of speed by raising the general print speed without losing quality.
