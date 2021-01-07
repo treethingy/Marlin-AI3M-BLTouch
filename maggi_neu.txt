@@ -1,0 +1,125 @@
+Warning! `env_default` configuration option in section [platformio] is deprecated and will be removed in the next release! Please use `default_envs` instead
+--- Available filters and text transformations: colorize, debug, default, direct, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at http://bit.ly/pio-monitor-filters
+start
+echo: External Reset
+Marlin 1.1.9
+Marlin-AI3M v1.4.6
+
+echo: Last Updated: 2019-04-03 | Author: (davidramiro)
+echo:Compiled: Dec 28 2020
+echo: Free Memory: 1286  PlannerBufferBytes: 1664
+echo:V55 stored settings retrieved (731 bytes; crc 33962)
+echo:  G21    ; (mm)
+
+echo:Filament settings: Disabled
+echo:  M200 D1.75
+echo:  M200 D0
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z400.00 E450.00
+echo:Maximum feedrates (units/s):
+echo:  M203 X500.00 Y500.00 Z6.00 E60.00
+echo:Maximum Acceleration (units/s2):
+echo:  M201 X3000 Y2000 Z60 E10000
+echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+echo:  M204 P4000.00 R3000.00 T4000.00
+echo:Advanced: Q<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_x_jerk> Y<max_y_jerk> Z<max_z_jerk> E<max_e_jerk>
+echo:  M205 Q20000 S0.00 T0.00 X20.00 Y20.00 Z0.40 E5.00
+echo:Home offset:
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Auto Bed Leveling:
+echo:  M420 S0 Z0.00
+echo:  G29 W I0 J0 Z-0.71250
+echo:  G29 W I1 J0 Z-0.49500
+echo:  G29 W I2 J0 Z-0.34250
+echo:  G29 W I3 J0 Z-0.29500
+echo:  G29 W I4 J0 Z-0.32250
+echo:  G29 W I0 J1 Z-0.54500
+echo:  G29 W I1 J1 Z-0.34500
+echo:  G29 W I2 J1 Z-0.20750
+echo:  G29 W I3 J1 Z-0.13000
+echo:  G29 W I4 J1 Z-0.13750
+echo:  G29 W I0 J2 Z-0.48750
+echo:  G29 W I1 J2 Z-0.26500
+echo:  G29 W I2 J2 Z-0.09250
+echo:  G29 W I3 J2 Z0.00750
+echo:  G29 W I4 J2 Z0.00250
+echo:  G29 W I0 J3 Z-0.50500
+echo:  G29 W I1 J3 Z-0.24250
+echo:  G29 W I2 J3 Z-0.04500
+echo:  G29 W I3 J3 Z0.06250
+echo:  G29 W I4 J3 Z0.07500
+echo:  G29 W I0 J4 Z-0.55750
+echo:  G29 W I1 J4 Z-0.33250
+echo:  G29 W I2 J4 Z-0.05500
+echo:  G29 W I3 J4 Z0.00500
+echo:  G29 W I4 J4 Z0.11000
+echo:Endstop adjustment:
+echo:  M666 Z0.00
+echo:PID settings:
+echo:  M301 P15.94 I1.17 D54.19
+echo:  M304 P251.78 I49.57 D319.73
+echo:Z-Probe Offset (mm):
+echo:  M851 Z-1.20
+echo:Linear Advance:
+echo:  M900 K0.00
+echo:Filament load/unload lengths:
+echo:  M603 L538.00 U555.00
+echo:SD card ok
+echo:SD card ok
+echo:  G21    ; (mm)
+
+echo:Filament settings: Disabled
+echo:  M200 D1.75
+echo:  M200 D0
+echo:Steps per unit:
+echo:  M92 X80.00 Y80.00 Z400.00 E450.00
+echo:Maximum feedrates (units/s):
+echo:  M203 X500.00 Y500.00 Z6.00 E60.00
+echo:Maximum Acceleration (units/s2):
+echo:  M201 X3000 Y2000 Z60 E10000
+echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+echo:  M204 P4000.00 R3000.00 T4000.00
+echo:Advanced: Q<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_x_jerk> Y<max_y_jerk> Z<max_z_jerk> E<max_e_jerk>
+echo:  M205 Q20000 S0.00 T0.00 X20.00 Y20.00 Z0.40 E5.00
+echo:Home offset:
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:Auto Bed Leveling:
+echo:  M420 S0 Z0.00
+echo:  G29 W I0 J0 Z-0.71250
+echo:  G29 W I1 J0 Z-0.49500
+echo:  G29 W I2 J0 Z-0.34250
+echo:  G29 W I3 J0 Z-0.29500
+echo:  G29 W I4 J0 Z-0.32250
+echo:  G29 W I0 J1 Z-0.54500
+echo:  G29 W I1 J1 Z-0.34500
+echo:  G29 W I2 J1 Z-0.20750
+echo:  G29 W I3 J1 Z-0.13000
+echo:  G29 W I4 J1 Z-0.13750
+echo:  G29 W I0 J2 Z-0.48750
+echo:  G29 W I1 J2 Z-0.26500
+echo:  G29 W I2 J2 Z-0.09250
+echo:  G29 W I3 J2 Z0.00750
+echo:  G29 W I4 J2 Z0.00250
+echo:  G29 W I0 J3 Z-0.50500
+echo:  G29 W I1 J3 Z-0.24250
+echo:  G29 W I2 J3 Z-0.04500
+echo:  G29 W I3 J3 Z0.06250
+echo:  G29 W I4 J3 Z0.07500
+echo:  G29 W I0 J4 Z-0.55750
+echo:  G29 W I1 J4 Z-0.33250
+echo:  G29 W I2 J4 Z-0.05500
+echo:  G29 W I3 J4 Z0.00500
+echo:  G29 W I4 J4 Z0.11000
+echo:Endstop adjustment:
+echo:  M666 Z0.00
+echo:PID settings:
+echo:  M301 P15.94 I1.17 D54.19
+echo:  M304 P251.78 I49.57 D319.73
+echo:Z-Probe Offset (mm):
+echo:  M851 Z-1.20
+echo:Linear Advance:
+echo:  M900 K0.00
+echo:Filament load/unload lengths:
+echo:  M603 L538.00 U555.00
+ok
