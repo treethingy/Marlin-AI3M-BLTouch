@@ -614,7 +614,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 392.29 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 470 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -742,7 +742,7 @@
    * For genuine BLTouch 3.0 sensors. Clones may be confused by 3.0 command angles. YMMV.
    * If the pin trigger is not detected, first try swapping the black and white wires then toggle this.
    */
-  //#define BLTOUCH_V3
+  #define BLTOUCH_V3
   #if ENABLED(BLTOUCH_V3)
     //#define BLTOUCH_FORCE_5V_MODE
     //#define BLTOUCH_FORCE_OPEN_DRAIN_MODE
@@ -795,7 +795,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER 0  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER -23  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -1   // Z offset: -below +above  [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -0.5   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 10
